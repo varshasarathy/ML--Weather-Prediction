@@ -2,32 +2,6 @@
 ## AIM:
 To write a program to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data using Random Forest Algorithm.
 
-## Problem Statement and Dataset
-Accurate prediction of environmental conditions such as temperature, air pollution (PM2.5), and solar energy is essential for effective urban planning, public health monitoring, and energy management. Environmental sensor data collected from weather stations often contain noise, missing values, and time-dependent patterns, making prediction challenging.
-
-The objective of this project is to develop a machine learning model using the Random Forest Algorithm to predict daily temperature, PM2.5 pollution levels, and solar radiation (energy) based on historical environmental sensor data. The model should preprocess the dataset, handle missing values, extract relevant time-based and lag features, and provide accurate predictions along with performance evaluation.
-
-The dataset used in this project is collected from an environmental weather station and stored in a CSV file named weather-station-eee-block_2024_07_13.csv. It contains time-series sensor readings recorded at regular intervals.
-
-attributes in dataset:
-
-*time
-
-*tem(temperature)
-
-*pm2_5 (PM2.5 Pollution Level) 
-
-*hum(humidity)
-
-*tsr (Total Solar Radiation / Energy)
-
-*pressure (Atmospheric Pressure)
-
-*wind_speed
-
-*illumination
-
-*co2 (Carbon Dioxide Level)
 
 ## Equipments Required:
 1. Hardware – PCs
